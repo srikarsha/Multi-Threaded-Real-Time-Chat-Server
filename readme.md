@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a multithreaded client-server chat application developed in C for Unix/Linux systems. It allows multiple clients to connect to a central server and engage in real-time chat with each other. Clients can run in separate terminals, and they don't need to be on the same machine.
+This is a multithreaded client-server chat application developed in C for Windows/Linux systems. It allows multiple clients to connect to a central server and engage in real-time chat with each other. Clients can run in separate terminals, and they don't need to be on the same machine.
 
 ## Prerequisites
 - C compiler (e.g., GCC)
