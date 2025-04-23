@@ -5,8 +5,6 @@
 This is a multithreaded client-server chat application developed in C for Unix/Linux systems. It allows multiple clients to connect to a central server and engage in real-time chat with each other. Clients can run in separate terminals, and they don't need to be on the same machine.
 
 ## Prerequisites
-
-- Unix/Linux operating system
 - C compiler (e.g., GCC)
 - Basic understanding of terminal commands
 
@@ -17,17 +15,20 @@ This is a multithreaded client-server chat application developed in C for Unix/L
 1. Open a terminal for the server.
 2. Compile the server code using GCC:
    ```bash
-   gcc server.c -o server && ./server _PORT_
+   gcc server.c -o server
+   ./server _PORT_
 
 ### Client
 
 1. Open multiple terminals for clients (4 in this example).
 2. Compile the server code using GCC:
    ```bash
-   gcc client.c -o client && ./client _SERVER-IP-ADDRESS_ _SERVER-PORT_
+   gcc client.c -o client
+   ./client _SERVER-IP-ADDRESS_ _SERVER-PORT_
 3. Replace _SERVER-IP-ADDRESS_ with the IP address of the server and _SERVER-PORT_ with the port number on which the server is running. For example:
    ```bash
-   gcc client.c -o client && ./client 10.10.75.20 1235
+   gcc client.c -o client
+   ./client 10.10.75.20 1235
 # Usage
 
 Use the following commands to interact with the server:
